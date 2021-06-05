@@ -1,0 +1,4 @@
+#! /bin/sh
+
+/bin/sh -ec  "cd /opt/PERN-stack-blogs-site/frontend ; npm start &" 
+/bin/sh -ec "cd /opt/PERN-stack-blogs-site/backend ; node todo.js "
